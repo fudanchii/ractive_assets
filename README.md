@@ -9,7 +9,7 @@ Makes it easy to use [Ractive.js](http://www.ractivejs.org/) in your rails proje
 We're really grateful for all help packaging it! (Mainly writing proper docs and more tests).
 
 ### Bundled Ractive.js version:
-0.5.5
+0.5.8
 
 ### Gemfile
 
