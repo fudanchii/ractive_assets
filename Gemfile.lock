@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ractive_assets (0.0.14)
+    ractive_assets (0.0.15)
       execjs (>= 2.0.2)
       multi_json
       sprockets (>= 2.2.2)

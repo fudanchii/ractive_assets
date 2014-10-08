@@ -14,7 +14,7 @@ module RactiveAssets
   if defined?(Rails) && defined?(::Rails::Engine)
     require 'ractive_assets/engine'
   else
-    # require 'sprockets'
+    require 'sprockets'
     Sprockets.register_engine '.rac',         TiltRactive
     Sprockets.register_engine '.ractive',     TiltRactive
     Sprockets.register_engine('.ractivehaml', TiltRactive) if RactiveAssets::Config.haml_available?
