@@ -26,7 +26,7 @@
 				v: 1,
 				t: []
 			},
-			yield: null,
+			'yield': null,
 			// parse:
 			preserveWhitespace: false,
 			sanitize: false,
