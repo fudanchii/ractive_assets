@@ -4,7 +4,7 @@ PATH
     ractive_assets (0.0.15)
       execjs (>= 2.0.2)
       multi_json
-      sprockets (>= 2.2.2)
+      sprockets
       tilt
 
 GEM
@@ -16,7 +16,7 @@ GEM
       slop (~> 3.6)
     columnize (0.8.9)
     debugger-linecache (1.2.0)
-    execjs (2.2.1)
+    execjs (2.2.2)
     haml (4.0.5)
       tilt
     hike (1.2.3)
