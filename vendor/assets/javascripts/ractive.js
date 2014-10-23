@@ -11475,7 +11475,7 @@
 				_component: component,
 				// need to inherit runtime parent adaptors
 				adapt: ractive.adapt,
-				yield: {
+				'yield':{
 					template: contentDescriptor,
 					instance: ractive
 				}
