@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "haml"
   s.add_development_dependency "rake"
   s.add_development_dependency "slim"
-  s.add_development_dependency 'json', '~> 1.7.7'
+  s.add_development_dependency 'json', '~> 1.8.3'
 
 end

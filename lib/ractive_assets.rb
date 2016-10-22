@@ -7,9 +7,10 @@ module RactiveAssets
     PATH
   end
 
-  autoload(:Config,      'ractive_assets/config')
-  autoload(:Ractive,     'ractive_assets/ractive')
-  autoload(:TiltRactive, 'ractive_assets/tilt_ractive')
+  autoload(:Config,             'ractive_assets/config')
+  autoload(:Ractive,            'ractive_assets/ractive')
+  autoload(:TiltRactive,        'ractive_assets/tilt_ractive')
+  autoload(:RactiveTransformer, 'ractive_assets/ractive_transformer')
 
   if defined?(Rails) && defined?(::Rails::Engine)
     require 'ractive_assets/engine'

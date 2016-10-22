@@ -20,7 +20,7 @@ GEM
     haml (4.0.5)
       tilt
     hike (1.2.3)
-    json (1.7.7)
+    json (1.8.3)
     multi_json (1.10.1)
     rack (1.5.2)
     rake (10.3.2)
@@ -42,7 +42,10 @@ PLATFORMS
 DEPENDENCIES
   byebug
   haml
-  json (~> 1.7.7)
+  json (~> 1.8.3)
   ractive_assets!
   rake
   slim
+
+BUNDLED WITH
+   1.12.5
